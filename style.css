@@ -1,0 +1,77 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+}
+html,
+body {
+  height: 100%;
+}
+
+body {
+  background: rgb(255, 132, 100);
+  background: linear-gradient(
+    90deg,
+    rgba(255, 132, 100, 1) 0%,
+    rgba(253, 105, 165, 1) 100%
+  );
+}
+
+.main-div{
+  display: flex;
+  margin: 50px;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 50px;
+  height: 100%;
+}
+.card-body {
+  background: #fff;
+  padding: 30px;
+  padding-left: 60px;
+  padding-right: 60px;
+  border-radius: 10px;
+  text-align: center;
+}
+.card-body h1 {
+  margin-bottom: 15px;
+  font-size: 70px;
+}
+.card-btn button {
+  border-radius: 5px;
+  color: #262626;
+  padding: 10px 20px;
+  border: 0;
+  font-size: 13px;
+  font-weight: bold;
+  margin: 0 5px;
+  cursor: pointer;
+  transition: 0.5s;
+}
+button#decrement,#decrement2,#decrement3,#decrement4,#decrement5 {
+  background: #f6e58d;
+}
+button#decrement:hover,#decrement2:hover,#decrement3:hover,#decrement4:hover,#decrement5:hover {
+  background: #f79f1f;
+  color: #fff;
+}
+button#reset,#reset2,#reset3,#reset4,#reset5{
+  background: #f3a683;
+
+}
+button#reset:hover,#reset2:hover,#reset3:hover,#reset4:hover,#reset5:hover {
+  background: #ea2027;
+  color: #fff;
+}
+button#increment,#increment2,#increment3,#increment4,#increment5 {
+  background: #c4e538;
+}
+button#increment:hover,#increment2:hover,#increment3:hover,#increment4:hover,#increment5:hover {
+  background: #009432;
+  color: #fff;
+}
